@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Learning_QA/Cursor/HW23_Lecture27_BDD_Gherkin_Cucumber">
+        <classes>
+<!--            <class name="com.cursor.runner.CucumberRunnerTests">-->
+            <class name="ui.RozetkaTest">
+                <methods>
+                    <include name="hpAddToBasketAndCheckPriceTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
