@@ -1,0 +1,91 @@
+{
+  "uid" : "4df21d61d788979",
+  "name" : "rozetkaAssert",
+  "fullName" : "ui.RozetkaTest.rozetkaAssert",
+  "historyId" : "1dfaf35b12238fdc34e2ba9465e02070",
+  "time" : {
+    "start" : 1667221495222,
+    "stop" : 1667221495223,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1667221474125,
+      "stop" : 1667221478363,
+      "duration" : 4238
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1667221495231,
+      "stop" : 1667221496647,
+      "duration" : 1416
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ui.RozetkaTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ui.RozetkaTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "rozetkaAssert"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "HW25_Lecture29_Reporting_TestNG_AllureReport"
+  }, {
+    "name" : "subSuite",
+    "value" : "ui.RozetkaTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIKRCRL"
+  }, {
+    "name" : "thread",
+    "value" : "9000@DESKTOP-FIKRCRL.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4df21d61d788979.json",
+  "parameterValues" : [ ]
+}

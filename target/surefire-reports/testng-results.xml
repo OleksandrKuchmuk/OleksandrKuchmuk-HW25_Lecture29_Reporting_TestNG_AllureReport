@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T15:44:45 EEST" name="All Test Suite" finished-at="2022-10-29T15:45:07 EEST" duration-ms="21954">
+  <suite started-at="2022-11-01T12:08:34 EET" name="All Test Suite" finished-at="2022-11-01T12:08:58 EET" duration-ms="24195">
     <groups>
     </groups>
-    <test started-at="2022-10-29T15:44:45 EEST" name="D:/Learning_QA/Cursor/HW23_Lecture27_BDD_Gherkin_Cucumber" finished-at="2022-10-29T15:45:07 EEST" duration-ms="21954">
+    <test started-at="2022-11-01T12:08:34 EET" name="HW25_Lecture29_Reporting_TestNG_AllureReport" finished-at="2022-11-01T12:08:58 EET" duration-ms="24195">
       <class name="ui.RozetkaTest">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:ui.RozetkaTest@33a2499c]" started-at="2022-10-29T15:44:45 EEST" name="setDriver" finished-at="2022-10-29T15:44:48 EEST" duration-ms="3072" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:ui.RozetkaTest@889a8a8]" started-at="2022-11-01T12:08:34 EET" name="setDriver" finished-at="2022-11-01T12:08:38 EET" duration-ms="4393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="hpAddToBasketAndCheckPriceTest()[pri:0, instance:ui.RozetkaTest@33a2499c]" started-at="2022-10-29T15:44:48 EEST" name="hpAddToBasketAndCheckPriceTest" finished-at="2022-10-29T15:45:06 EEST" duration-ms="17935" status="PASS">
+        <test-method signature="comarizon()[pri:0, instance:ui.RozetkaTest@889a8a8]" started-at="2022-11-01T12:08:38 EET" name="comarizon" finished-at="2022-11-01T12:08:38 EET" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comarizon -->
+        <test-method signature="hpAddToBasketAndCheckPriceTest()[pri:0, instance:ui.RozetkaTest@889a8a8]" started-at="2022-11-01T12:08:39 EET" name="hpAddToBasketAndCheckPriceTest" finished-at="2022-11-01T12:08:57 EET" duration-ms="18075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hpAddToBasketAndCheckPriceTest -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ui.RozetkaTest@33a2499c]" started-at="2022-10-29T15:45:06 EEST" name="quitDriver" finished-at="2022-10-29T15:45:07 EEST" duration-ms="880" status="PASS">
+        <test-method signature="rozetkaEqualsRoZeTka()[pri:0, instance:ui.RozetkaTest@889a8a8]" started-at="2022-11-01T12:08:57 EET" name="rozetkaEqualsRoZeTka" finished-at="2022-11-01T12:08:57 EET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rozetkaEqualsRoZeTka -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:ui.RozetkaTest@889a8a8]" started-at="2022-11-01T12:08:57 EET" name="quitDriver" finished-at="2022-11-01T12:08:58 EET" duration-ms="1356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- ui.RozetkaTest -->
-    </test> <!-- D:/Learning_QA/Cursor/HW23_Lecture27_BDD_Gherkin_Cucumber -->
+    </test> <!-- HW25_Lecture29_Reporting_TestNG_AllureReport -->
   </suite> <!-- All Test Suite -->
 </testng-results>

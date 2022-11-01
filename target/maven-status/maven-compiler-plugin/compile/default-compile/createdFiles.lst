@@ -15,6 +15,7 @@ com\cursor\pages\RozetkaMainPage.class
 com\cursor\BisnesObjects\AllLaptopPageBO.class
 com\cursor\pages\BasePage.class
 com\cursor\pages\AllLaptopPage.class
+com\cursor\driver\AllureListener.class
 com\cursor\BisnesObjects\BasketPageBO.class
 com\cursor\runner\CucumberRunnerTests.class
 com\cursor\elements\Product.class

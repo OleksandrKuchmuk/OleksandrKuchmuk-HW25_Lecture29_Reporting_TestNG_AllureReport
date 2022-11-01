@@ -1,0 +1,73 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "rozetkaAssert",
+    "uid" : "9ed6f8cd4734c8ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1667227476086,
+      "stop" : 1667227476090,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "rozetkaAssertion",
+    "uid" : "e0622fac6ef900f2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1667227476099,
+      "stop" : 1667227476101,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Regression",
+    "children" : [ {
+      "name" : "Search feature",
+      "children" : [ {
+        "name" : "comarizon",
+        "uid" : "f585d43d127bd53c",
+        "parentUid" : "d992f37b06d43c0b4be83b1095b27edf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667297318947,
+          "stop" : 1667297318963,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "hpAddToBasketAndCheckPriceTest",
+        "uid" : "121e92fdd69d537d",
+        "parentUid" : "d992f37b06d43c0b4be83b1095b27edf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667297319150,
+          "stop" : 1667297337217,
+          "duration" : 18067
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "rozetkaEqualsRoZeTka",
+        "uid" : "de7e5e34c084cc15",
+        "parentUid" : "d992f37b06d43c0b4be83b1095b27edf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667297337229,
+          "stop" : 1667297337230,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d992f37b06d43c0b4be83b1095b27edf"
+    } ],
+    "uid" : "03c2c43ea40815c27306e3934ff482fd"
+  } ]
+}

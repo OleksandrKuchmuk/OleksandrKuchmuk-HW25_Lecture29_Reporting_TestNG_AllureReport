@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","ui.RozetkaTest.hpAddToBasketAndCheckPriceTest","18067",""
+"passed","ui.RozetkaTest.comarizon","16",""
+"passed","ui.RozetkaTest.rozetkaEqualsRoZeTka","1",""
+"passed","ui.RozetkaTest.rozetkaAssertion","2",""
+"passed","ui.RozetkaTest.rozetkaAssert","4",""

@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "HW25_Lecture29_Reporting_TestNG_AllureReport",
+      "children" : [ {
+        "name" : "ui.RozetkaTest",
+        "children" : [ {
+          "name" : "rozetkaAssert",
+          "uid" : "9ed6f8cd4734c8ed",
+          "parentUid" : "8a1eec42169152c67aa605a46f7743bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667227476086,
+            "stop" : 1667227476090,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "rozetkaAssertion",
+          "uid" : "e0622fac6ef900f2",
+          "parentUid" : "8a1eec42169152c67aa605a46f7743bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667227476099,
+            "stop" : 1667227476101,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "comarizon",
+          "uid" : "f585d43d127bd53c",
+          "parentUid" : "8a1eec42169152c67aa605a46f7743bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667297318947,
+            "stop" : 1667297318963,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "hpAddToBasketAndCheckPriceTest",
+          "uid" : "121e92fdd69d537d",
+          "parentUid" : "8a1eec42169152c67aa605a46f7743bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667297319150,
+            "stop" : 1667297337217,
+            "duration" : 18067
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "rozetkaEqualsRoZeTka",
+          "uid" : "de7e5e34c084cc15",
+          "parentUid" : "8a1eec42169152c67aa605a46f7743bc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667297337229,
+            "stop" : 1667297337230,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8a1eec42169152c67aa605a46f7743bc"
+      } ],
+      "uid" : "87864660d03808d5a6b974e7041466d6"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}

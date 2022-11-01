@@ -2,6 +2,7 @@ package com.cursor.pages;
 
 import com.cursor.driver.DriverManager;
 import com.cursor.elements.Button;
+import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -16,6 +17,7 @@ public class FirstLaptopHPPage extends BasePage {
     @FindBy(xpath = "//a[@data-testid='cart-receipt-submit-order']")
     private Button toOrderButtonOnAlertWindow;
 
+    @Step("Clicking on 'Buy' button")
     public FirstLaptopHPPage clickOnBuyButton() {
         LOGGER.info("Clicking on 'Buy' button");
         DriverManager.getDriver().findElement(By.xpath("//a[@class='tabs__link tabs__link--active']")).click();
@@ -23,6 +25,7 @@ public class FirstLaptopHPPage extends BasePage {
         return this;
     }
 
+    @Step("Clicking on 'To order' button")
     public FirstLaptopHPPage clickOnToOrderButtonInAlertWindow() {
         LOGGER.info("Clicking on 'To order' button");
         toOrderButtonOnAlertWindow.click();

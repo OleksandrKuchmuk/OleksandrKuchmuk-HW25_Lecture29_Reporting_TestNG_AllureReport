@@ -6,7 +6,7 @@ import com.cursor.pages.BasketPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.checkerframework.checker.index.qual.LessThan;
+//import org.checkerframework.checker.index.qual.LessThan;
 import org.testng.Assert;
 
 public class BasketPageDefinition extends BaseDefinition{

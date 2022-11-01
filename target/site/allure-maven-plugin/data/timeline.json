@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-FIKRCRL",
+    "children" : [ {
+      "name" : "7128@DESKTOP-FIKRCRL.main(1)",
+      "children" : [ {
+        "name" : "hpAddToBasketAndCheckPriceTest",
+        "uid" : "121e92fdd69d537d",
+        "parentUid" : "c24cfd519a9c414b2b6cd5ca8659712b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667297319150,
+          "stop" : 1667297337217,
+          "duration" : 18067
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "comarizon",
+        "uid" : "f585d43d127bd53c",
+        "parentUid" : "c24cfd519a9c414b2b6cd5ca8659712b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667297318947,
+          "stop" : 1667297318963,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "rozetkaEqualsRoZeTka",
+        "uid" : "de7e5e34c084cc15",
+        "parentUid" : "c24cfd519a9c414b2b6cd5ca8659712b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667297337229,
+          "stop" : 1667297337230,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c24cfd519a9c414b2b6cd5ca8659712b"
+    }, {
+      "name" : "13084@DESKTOP-FIKRCRL.main(1)",
+      "children" : [ {
+        "name" : "rozetkaAssertion",
+        "uid" : "e0622fac6ef900f2",
+        "parentUid" : "d453559dc06321048fc3ca419ba60678",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667227476099,
+          "stop" : 1667227476101,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "rozetkaAssert",
+        "uid" : "9ed6f8cd4734c8ed",
+        "parentUid" : "d453559dc06321048fc3ca419ba60678",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667227476086,
+          "stop" : 1667227476090,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d453559dc06321048fc3ca419ba60678"
+    } ],
+    "uid" : "9ab5e42687b45feab7acb166c75b5cdf"
+  } ]
+}

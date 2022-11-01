@@ -1,6 +1,7 @@
 package com.cursor.pages;
 
 import com.cursor.elements.FieldWithData;
+import io.qameta.allure.Step;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.FindBy;
@@ -14,11 +15,13 @@ public class BasketPage extends BasePage {
     @FindBy(xpath = "//dd[@class='checkout-total__value checkout-total__value_size_large']")
     private FieldWithData totalPriseIfProductsInBasket;
 
+    @Step("Getting count products in Basket")
     public int getCountProductsInBasket() {
         LOGGER.info("Getting count products in Basket");
         return takeIntFromString(countProductsInBasket.getText(), 1);
     }
 
+    @Step("Getting total price from basket")
     public int getTotalPriceOfProductsInBasket() {
         LOGGER.info("Getting total price from basket");
         return takeIntFromString(totalPriseIfProductsInBasket.getText(), 2);
@@ -26,6 +29,7 @@ public class BasketPage extends BasePage {
 
     //this method make split of string and returns 'digitGroupCounter' values of array(integer number)
     // if you have '125 362 dfr' than you choose  'digitGroupCounter' = 2
+    @Step("Method to take integer number from string")
     private int takeIntFromString(String str, int digitGroupCounter) {
         LOGGER.info("Method to take integer number from string");
         String[] words = str.split(" ");

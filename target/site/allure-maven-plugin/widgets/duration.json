@@ -1,0 +1,51 @@
+[ {
+  "uid" : "121e92fdd69d537d",
+  "name" : "hpAddToBasketAndCheckPriceTest",
+  "time" : {
+    "start" : 1667297319150,
+    "stop" : 1667297337217,
+    "duration" : 18067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f585d43d127bd53c",
+  "name" : "comarizon",
+  "time" : {
+    "start" : 1667297318947,
+    "stop" : 1667297318963,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de7e5e34c084cc15",
+  "name" : "rozetkaEqualsRoZeTka",
+  "time" : {
+    "start" : 1667297337229,
+    "stop" : 1667297337230,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0622fac6ef900f2",
+  "name" : "rozetkaAssertion",
+  "time" : {
+    "start" : 1667227476099,
+    "stop" : 1667227476101,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ed6f8cd4734c8ed",
+  "name" : "rozetkaAssert",
+  "time" : {
+    "start" : 1667227476086,
+    "stop" : 1667227476090,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

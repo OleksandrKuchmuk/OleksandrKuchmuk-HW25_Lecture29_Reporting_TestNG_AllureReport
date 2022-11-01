@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
-                    <span>D:\Learning_QA\Cursor\HW25_Lecture29_Reporting_TestNG_AllureReport\src\main\resources\testng.xml</span>
+                    <span>D:\Learning_QA\Cursor\HW25_Lecture29_Reporting_TestNG_AllureReport\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="ui.RozetkaTest" class="method navigator-link" hash-for-method="hpAddToBasketAndCheckPriceTest">hpAddToBasketAndCheckPriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="ui.RozetkaTest" class="method navigator-link" hash-for-method="rozetkaAssert">rozetkaAssert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="ui.RozetkaTest" class="method navigator-link" hash-for-method="rozetkaAssertion">rozetkaAssertion</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -131,27 +141,37 @@
                   <span class="method-name">hpAddToBasketAndCheckPriceTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rozetkaAssert">
+                  </a> <!-- rozetkaAssert -->
+                  <span class="method-name">rozetkaAssert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rozetkaAssertion">
+                  </a> <!-- rozetkaAssertion -->
+                  <span class="method-name">rozetkaAssertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Test_Suite-class-passed -->
         </div> <!-- panel All_Test_Suite -->
         <div panel-name="test-xml-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Learning_QA\Cursor\HW25_Lecture29_Reporting_TestNG_AllureReport\src\main\resources\testng.xml</span>
+            <span class="header-content">D:\Learning_QA\Cursor\HW25_Lecture29_Reporting_TestNG_AllureReport\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;D:/Learning_QA/Cursor/HW23_Lecture27_BDD_Gherkin_Cucumber&quot; verbose=&quot;2&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HW25_Lecture29_Reporting_TestNG_AllureReport&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ui.RozetkaTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;hpAddToBasketAndCheckPriceTest&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- ui.RozetkaTest --&gt;
+      &lt;class name=&quot;ui.RozetkaTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- D:/Learning_QA/Cursor/HW23_Lecture27_BDD_Gherkin_Cucumber --&gt;
+  &lt;/test&gt; &lt;!-- HW25_Lecture29_Reporting_TestNG_AllureReport --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,7 +183,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">D:/Learning_QA/Cursor/HW23_Lecture27_BDD_Gherkin_Cucumber (1 class)</span>
+                <span class="test-name">HW25_Lecture29_Reporting_TestNG_AllureReport (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,16 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'hpAddToBasketAndCheckPriceTest')
 data.setCell(0, 2, 'ui.RozetkaTest')
-data.setCell(0, 3, 17935);
+data.setCell(0, 3, 18199);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'rozetkaAssertion')
+data.setCell(1, 2, 'ui.RozetkaTest')
+data.setCell(1, 3, 19);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'rozetkaAssert')
+data.setCell(2, 2, 'ui.RozetkaTest')
+data.setCell(2, 3, 4);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -231,11 +259,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">hpAddToBasketAndCheckPriceTest</span>
-                <span class="method-start">3092 ms</span>
+                <span class="method-start">4887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rozetkaAssert</span>
+                <span class="method-start">23214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rozetkaAssertion</span>
+                <span class="method-start">23234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">21030 ms</span>
+                <span class="method-start">23262 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
